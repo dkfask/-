@@ -1,0 +1,23 @@
+<view style="background-color: #F1F1F1; width: 614rpx; height: 100rpx; display: block; box-sizing: border-box;text-align:center;">
+                八点半之前起床：积分+30</view>
+            
+            
+                <view style="background-color: #F1F1F1; width: 614rpx; height: 100rpx; display: block; box-sizing: border-box;text-align:center;">
+                按时吃早饭：积分+15</view>
+                <view style="background-color: #F1F1F1; width: 614rpx; height: 100rpx; display: block; box-sizing: border-box; position: relative; left: 0rpx; top: 0rpx;text-align:center;">多喝水：积分+15</view>
+                <view style="background-color: #F1F1F1; width: 614rpx; height: 100rpx; display: block; box-sizing: border-box;text-align:center;">
+                一天不乱吃东西：积分+20</view>
+                <view style="background-color: #F1F1F1; width: 614rpx; height: 100rpx; display: block; box-sizing: border-box; position: relative; left: 0rpx; top: 0rpx;text-align:center;">十二点之前睡觉：积分+20</view>
+                <view style="background-color: #F1F1F1; width: 614rpx; height: 100rpx; display: block; box-sizing: border-box;text-align:center;">
+                一起看电视：积分+10</view>
+<view style="background-color: #F1F1F1; width: 614rpx; height: 100rpx; display: block; box-sizing: border-box;text-align:center;">
+    两天敷一次面膜：积分+30</view>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+<image style="position: relative; width: 132rpx; height: 123rpx; display: inline-block; box-sizing: border-box; left: 321rpx; top: 11rpx" src="{{url}}" />
+<view style="position: relative; width: 158rpx;  height: 48rpx; display: block; box-sizing: border-box; left: 308rpx; top: 4rpx;text-align:center;" >{{name}}</view>
+<view style="position: relative; width: 456rpx; height: 48rpx; display: block; box-sizing: border-box; left: 158rpx; top: 4rpx;text-align:center;">剩余积分：{{num}}</view>
+
+<view wx:for="{{arr}}" wx:key="*this">
+    {{index}} 商品名:{{item.name}} , 商品数量：{{item.num}}
+   
+
+   
+</view> 
+

@@ -1,0 +1,85 @@
+<view style="position: relative; left: 54rpx; top: 0rpx" >姓名:{{name}}</view>
+<view style="position: relative; left: 54rpx; top: 0rpx" >拥有积分为:{{list.jifeng}}</view>
+<image style="position: relative; width: 128rpx; height: 108rpx; display: inline-block; box-sizing: border-box; left: 122rpx; top: 0rpx" src="https://img2.baidu.com/it/u=969852419,1456863011&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=331" /> 
+<image style="position: relative; width: 128rpx; height: 108rpx; display: inline-block; box-sizing: border-box; left: -8rpx; top: 255rpx" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fnimg.ws.126.net%2F%3Furl%3Dhttp%253A%252F%252Fdingyue.ws.126.net%252F2021%252F0907%252F54030089j00qz23uf0054c000tu00lzm.jpg%26thumbnail%3D650x2147483647%26quality%3D80%26type%3Djpg&refer=http%3A%2F%2Fnimg.ws.126.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1649505148&t=c90d3ed7a1a24601040b109905dcbef5" />
+ 
+<image style="position: relative; width: 128rpx; height: 108rpx; display: inline-block; box-sizing: border-box; left: 239rpx; top: 0rpx" src="http://t13.baidu.com/it/u=4224343737,3720894657&fm=224&app=112&f=JPEG?w=500&h=500" />
+
+
+<view style="width: 272rpx;  height: 42rpx; position: relative; left: 54rpx; top: 34rpx; display: block; box-sizing: border-box" bindtap="goumai_0" data-text="5000" data-name="火锅">购买需要积分:5000</view>
+<text style="position: relative; left: 101rpx; top: -48rpx;text-align:center;">一顿双人火锅</text>
+<text style="position: relative; left: 326rpx; top: -50rpx">一起出去旅游</text>
+<view style="width: 272rpx;  height: 42rpx; position: relative; left: 442rpx; top: -50rpx; display: block; box-sizing: border-box;text-align:center;" bindtap="goumai_0" data-text="20000" data-name="旅游">购买需要积分:20000</view>
+<text style="position: relative; left: 100rpx; top: 130rpx">一起去游乐场</text>
+<view style="width: 272rpx;  height: 42rpx; position: relative; left: 49rpx; top: 134rpx; display: block; box-sizing: border-box" bindtap="goumai_0" data-text="10000" data-name="游乐场">购买需要积分:10000</view>
+<image style="position: relative; width: 128rpx; height: 108rpx; display: inline-block; box-sizing: border-box; left: 495rpx; top: -55rpx" src="https://img0.baidu.com/it/u=1362441958,4141172681&fm=253&fmt=auto&app=138&f=JPEG?w=764&h=500" />
+<image style="position: relative; width: 128rpx; height: 108rpx; display: inline-block; box-sizing: border-box; left: 359rpx; top: 633rpx" src="https://t7.baidu.com/it/u=2008181630,2259978685&fm=193&f=GIF" />
+
+
+<picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker"  style="position: relative; left: 446rpx; top: -62rpx; width: 249rpx; height: 37rpx; display: block; box-sizing: border-box">
+      价值：{{array[index]}}的抓娃娃
+    </view>
+  </picker>
+<view style="width: 272rpx;  height: 42rpx; position: relative; left: 428rpx; top: -58rpx; display: block; box-sizing: border-box" bindtap="goumai_0" data-text="{{array_0[index]}}" data-name="{{array[index]}}的抓娃娃">购买需要积分:{{array_0[index]}}</view>
+<swiper></swiper>
+<text style="position: relative; left: 100rpx; top: -234rpx;text-align:center;">零食大礼包</text>
+
+<image style="position: relative; width: 128rpx; height: 108rpx; display: inline-block; box-sizing: border-box; left: -22rpx; top: -263rpx" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zhiribao.com%2Fupload%2Fimages%2F202107%2F6%2F64cc35aa7d3526fb01428ca1d129ca14c98af147.jpg&refer=http%3A%2F%2Fimg.zhiribao.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1649678276&t=de26eb5a636826bdf415e5b05276b5ea" />
+<view style="width: 272rpx; height: 42rpx; position: relative; left: 50rpx; top: -234rpx; display: block; box-sizing: border-box" bindtap="goumai_0" data-text="1500" data-name="游乐场">购买需要积分:1500</view>
+<image style="position: relative; width: 128rpx; height: 108rpx; display: inline-block; box-sizing: border-box; left: 495rpx; top: -418rpx" src="https://img1.baidu.com/it/u=1677828990,352834300&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500" />
+<picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker"  style="position: relative; left: 433rpx; top: -430rpx; width: 249rpx; height: 37rpx; display: block; box-sizing: border-box">
+      价值：{{array[index]}}的公仔
+    </view>
+  </picker>
+<view style="width: 272rpx; height: 42rpx; position: relative; left: 50rpx; top: -200rpx; display: block; box-sizing: border-box" bindtap="goumai_0" data-text="1500" data-name="电影">购买需要积分:1500</view>
+
+<view style="width: 272rpx; height: 42rpx; position: relative; left: 423rpx; top: -465rpx; display: block; box-sizing: border-box" bindtap="goumai_0" data-text="{{array_1[index]}}" data-name="{{array[index]}}公仔">购买需要积分:{{array_1[index]}}</view>
+<image style="position: relative; width: 128rpx; height: 108rpx; display: inline-block; box-sizing: border-box; left: 107rpx; top: -425rpx" src="https://img0.baidu.com/it/u=2487754201,3323097639&fm=253&fmt=auto&app=138&f=JPG?w=500&h=283" />
+<text style="position: relative; left: -34rpx; top: -395rpx; text-align: center">看一场电影</text>
+<image style="position: relative; width: 128rpx; height: 108rpx; display: inline-block; box-sizing: border-box; left: 227rpx; top: -425rpx" src="https://img0.baidu.com/it/u=1544613359,1982607059&fm=253&fmt=auto&app=138&f=JPEG?w=660&h=400" />
+<text style="position: relative; left: 43rpx; top: -395rpx; text-align: center">点一次喜欢的外卖</text>
+<view style="width: 272rpx; height: 42rpx; position: relative; left: 428rpx; top: -395rpx; display: block; box-sizing: border-box" bindtap="goumai_0" data-text="1000" data-name="喜欢的外卖">购买需要积分:1000</view>
+<image style="position: relative; width: 128rpx; height: 108rpx; display: inline-block; box-sizing: border-box; left: 100rpx; top: -361rpx" src="https://img2.baidu.com/it/u=3815076714,2322342856&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=323" />
+<text style="position: relative; left: -85rpx; top: -331rpx; text-align: center">买一个喜欢的包包</text>
+<view style="width: 272rpx; height: 42rpx; position: relative; left: 48rpx; top: -332rpx; display: block; box-sizing: border-box" bindtap="goumai_0" data-text="2500" data-name="喜欢的包包">购买需要积分:2500</view>
+<picker bindchange="bindPickerChange" value="{{index}}" range="{{array0}}">
+<view class="picker"  style="position: relative; left: 395rpx; top: -409rpx; width: 337rpx; height: 37rpx; display: block; box-sizing: border-box">
+      价值：{{array0[index]}}的化妆品
+    </view>
+  </picker>
+<view style="width: 332rpx; height: 37rpx; position: relative; left: 428rpx; top: -409rpx; display: block; box-sizing: border-box" bindtap="goumai_0" data-text="{{array_0[index]}}" data-name="{{array0[index]}}的化妆品">购买需要积分:{{array_2[index]}}</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

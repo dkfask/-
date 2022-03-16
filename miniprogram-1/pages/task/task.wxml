@@ -1,0 +1,53 @@
+<!--pages/task/task.wxml-->
+
+
+            <view style="display: flex; flex-direction: column; height: 540rpx; padding: 10px; margin-bottom: 10px; width: 750rpx; box-sizing: border-box" >
+                <view style="background-color: #F1F1F1; width: 614rpx; height: 100rpx; display: block; box-sizing: border-box">
+                八点半之前起床</view>
+            
+            
+                <view style="background-color: #F1F1F1; width: 614rpx; height: 100rpx; display: block; box-sizing: border-box">
+                按时吃早饭</view>
+                <view style="background-color: #F1F1F1; width: 614rpx; height: 100rpx; display: block; box-sizing: border-box; position: relative; left: 0rpx; top: 0rpx">多喝水</view>
+                <view style="background-color: #F1F1F1; width: 614rpx; height: 100rpx; display: block; box-sizing: border-box">
+                一天不乱吃东西</view>
+                <view style="background-color: #F1F1F1; width: 614rpx; height: 100rpx; display: block; box-sizing: border-box; position: relative; left: 0rpx; top: 0rpx">十二点之前睡觉</view>
+                <view style="background-color: #F1F1F1; width: 614rpx; height: 100rpx; display: block; box-sizing: border-box">
+                一起看电视</view>
+                
+                
+
+            </view>
+
+            <button class="mini-btn" type="primary" size="mini" style="position: relative; left: 638rpx; top: -534rpx" bindtap="submit_0" id="button_0" >完成</button>
+            <button class="mini-btn" type="primary" size="mini" style="position: relative; left: 535rpx; top: -111rpx" id="button_5" 
+            bindtap="submit_5"
+            >完成</button>
+
+            <button class="mini-btn" type="primary" size="mini" style="position: relative; left: 435rpx; top: -192rpx" id="button_4"
+            bindtap="submit_4">完成</button>
+
+            <button class="mini-btn" type="primary" size="mini" style="position: relative; left: 339rpx; top: -276rpx" id="button_3"
+            bindtap="submit_3">完成</button>
+
+            <button class="mini-btn" type="primary" size="mini" style="position: relative; left: 241rpx; top: -360rpx" id="button_2" bindtap="submit_2"
+            >完成</button>
+
+            <button class="mini-btn" type="primary" size="mini" style="position: relative; left: 142rpx; top: -446rpx" id="button_1"bindtap="submit_1">完成</button>
+<button style="position: relative; left: -214rpx; top: 624rpx"bindtap="interpreter">积分说明</button>
+<view style="background-color: #F1F1F1; width: 614rpx; height: 100rpx; display: block; box-sizing: border-box; position: relative; left: 18rpx; top: -172rpx">
+                两天敷一次面膜</view>
+<button class="mini-btn" type="primary" size="mini" style="position: relative; left: 631rpx; top: -250rpx" id="button_6" 
+            bindtap="submit_6"
+            >完成</button>
+
+
+
+            
+          
+            
+                
+
+            
+
+  
